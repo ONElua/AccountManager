@@ -1,4 +1,5 @@
 ----------Account Manager------------
+-------Thanks to Onelua Team--------- 
 splash.zoom("ux0:app/ACCMAN001/resources/back.png")
 color.loadpalette()
 back = image.load("resources/back.png")
