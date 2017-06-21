@@ -9,6 +9,9 @@ id = ((os.login() or "")/"@")[1]
 ACCOUNTF="ux0:pspemu/PSP/SAVEDATA/ACTM00001/"
 MISC="ur0:user/00/np/myprofile.dat"
 
+__NAMEVPK = "Account_Manager"
+dofile("updater.lua")
+
 dofile("resources/functions.lua")
 
 -----------------Menu---------------------
