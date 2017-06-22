@@ -24,11 +24,11 @@ After changing accounts a reboot is automatically done so, dont forget to activa
 Please report any errors or bugs, hope you find this app usefull!
 
 Credits go to:
-Onelua Team for their support and friendship
-elpendors for his account switcher
-Theflow for all his work specially the updater
-team molecule (do I have to say why XD)
-everyone else in the scene keep doing all that good work
+1. Onelua Team for their support and friendship
+2. Elpendors for his account switcher
+3. Theflow for all his work specially the updater
+4. Team molecule (do I have to say why XD)
+5. Everyone else in the scene keep doing all that good work
 
 
 
