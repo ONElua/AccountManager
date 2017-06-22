@@ -25,7 +25,7 @@ Please report any errors or bugs, hope you find this app usefull!
 
 Credits go to:
 1. Onelua Team for their support and friendship
-2. Elpendors for his account switcher
+2. Elpendor for his account switcher
 3. Theflow for all his work specially the updater
 4. Team molecule (do I have to say why XD)
 5. Everyone else in the scene keep doing all that good work
