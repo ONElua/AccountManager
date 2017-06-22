@@ -68,7 +68,7 @@ function restore_account()                ---Cambiar datos de cuenta
     files.delete("ur0:/user/00/trophy/data/sce_trop/TRPUSER.DAT")
     files.delete("ur0:/user/00/trophy/data/sce_trop/sce_pfs/files.db")
     files.delete("ux0:/id.dat")
-    files.delete(MISC)
+	files.delete(MISC)
     os.restoreaccount(ACCOUNTF..list[scroll.sel].name)   
     files.copy(ACCOUNTF..list[scroll.sel].name.."/myprofile.dat","ur0:user/00/np/")
     os.message("We need to restart your PS Vita",0)

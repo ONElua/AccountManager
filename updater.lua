@@ -25,7 +25,7 @@ function screen.flip()
 	scr_flip()
 	if UPDATE_PORT:available() > 0 then
 		local version = UPDATE_PORT:pop()
-		local major = (version >> 0x18) & 0xFF;
+		local major = (version >> 0x01) & 0xFF;
 		local minor = (version >> 0x10) & 0xFF;
 		if os.message(__NAMEVPK.." "..string.format("%X.%02X",major, minor).." is now available.\n".."Do you want to update the application?", 1) == 1 then
 			buttons.homepopup(0)

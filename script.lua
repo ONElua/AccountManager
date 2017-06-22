@@ -1,11 +1,10 @@
 ----------Account Manager------------
--------Thanks to Onelua Team--------- 
-splash.zoom("ux0:app/ACCMAN001/resources/back.png")
+splash.zoom("ux0:app/ACTMANGER/resources/back.png")
 color.loadpalette()
 back = image.load("resources/back.png")
 buttonskey = image.load("resources/buttons.png",20,20)
-PAR="ux0:app/ACCMAN001/resources/PARAM.SFO"
-ICO="ux0:app/ACCMAN001/resources/ICON0.PNG"
+PAR="ux0:app/ACTMANGER/resources/PARAM.SFO"
+ICO="ux0:app/ACTMANGER/resources/ICON0.PNG"
 id = ((os.login() or "")/"@")[1]
 ACCOUNTF="ux0:pspemu/PSP/SAVEDATA/ACTM00001/"
 MISC="ur0:user/00/np/myprofile.dat"
@@ -80,7 +79,7 @@ while true do
 
     if buttons.square then                           ---Cambiamos de cuenta ...hay q asegurarnos q hay algo en la lista
         if list and #list > 0 then
-            if id != list[scroll.sel].name then 
+            if id != list[scroll.sel].name then 	
 			    restore_account()      ---functions.lua
             else
                 os.message("\nYou are on this account already",0)
