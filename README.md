@@ -2,7 +2,7 @@
 
 This app made with Onelua Team's help, based on elpendor's account switcher, will let you manage multiple accounts on your PS Vita.
 
-Keep the login files of your different accounts at hand with this app, plus, be able to change them at any time without the need to format your console (of course, after creating the folder with this app for each account), or your memory card.
+Keep the login files of your different accounts at hand with this app, plus, be able to change them at any time without the need to format your console (of course, after creating each account's folder), and without the need to format your memory card.
 
 It does support elpendor's account switcher profile folders, just move them to the following path ux0:pspemu/PSP/SAVEDATA/ACTM00001
 
